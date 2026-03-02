@@ -1,0 +1,12 @@
+/* apply across all pages */
+*
+{
+  font-family: serif, Times New Roman, Georgia;
+  color: black;
+  text-align: center;
+}
+html
+{
+  scroll-behavior: smooth;
+  height: 100%;
+}

@@ -14,41 +14,50 @@
       <link href="styles.css" rel="stylesheet"/>
       <!-- css import for navbar -->
       <link href="navbar.css" rel="stylesheet"/>
+      <!-- css import for footer -->
+      <link href="footer.css" rel="stylesheet"/>
       <!-- BOOTSTRAP -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
       <!-- for navbar-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   </head>
 
   <body>
     <div>
-      <div>
-        <a href="index.html"><b>TheLast.01</b></a>
-      </div>
 
-      <!-- introduce other pages in navBar-->
-      <div></div>
-      <nav>
-        <ul class="navbar">
-          <!-- might not include the following page later -->
-          <!-- <a href="resume/index.html">resume</a> -->
-          <li><a href="writing/index.html">Writing</a></li>
-          <li><a href="photography/index.html">Photography</a></li>
-          <li class="dropdown">
-            <a href="projects/index.html">Projects</a>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </li>
-          <li><a href="about/index.html">About</a></li>
-          <li><a href="contact/index.html">Contact</a></li>
-        </ul>
-      </nav>
+      <!-- duplicate across ALL index.html pages -->
+      <div>
+        <!-- logo at the top of the page -->
+        <div>
+          <a href="index.html">
+            <img src="assets/logos/websiteLogo.png" alt="" class="site-logo">
+          </a>
+        </div>
+
+        <!-- introduce other pages in navBar-->
+        <div></div>
+        <nav>
+          <ul class="navbar">
+            <!-- might not include the following page later -->
+            <!-- <a href="resume/index.html">resume</a> -->
+            <li><a href="writing/index.html">Writing</a></li>
+            <li><a href="photography/index.html">Photography</a></li>
+            <li class="dropdown">
+              <a href="projects/index.html">Projects</a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+            <li><a href="about/index.html">About</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
 
       <!-- carousel -->
@@ -101,7 +110,7 @@
           </div>
         </div>
 
-        <h4> read more --> </h4>
+        <a href="writing/index.html"><h4> read more --> </h4></a>
 
         <!-- best photography -->
         <!-- limit to 5 photos for now -->
@@ -170,42 +179,48 @@
 
   </body>
 
-  <footer class="site-footer">
+  <footer class="footer">
 
-  <div class="footer-container">
+    <div class="footer-container">
 
-    <div class="footer-section">
-      <h3>Sham P</h3>
-      <p>Writer, photographer, and creative storyteller.</p>
+      <div class="footer-column">
+        <h1>Palanisamy Shambhavi</h1>
+        <h4>Writer, photographer, and creative storyteller.</h4>
+      </div>
+
+      <div class="footer-column explore">
+        <h4>Explore</h4>
+          <p><a href="/writing">Writing</a></p>
+          <p><a href="/photography">Photography</a></p>
+          <p><a href="/projects">Projects</a></p>
+          <p><a href="/about">About</a></p>
+      </div>
+
+      <div class="footer-column connect">
+        <h4>Connect</h4>
+          <p><a href="mailto:p.shambhavi.01@gmail.com">Email</a></p>
+          <p><a href="https://www.instagram.com/thelast.01?igsh=a3dubzdybmFxbXIz">Instagram</a></p>
+          <p><a href="https://substack.com/@theangrydaughter/posts">Substack</a></p>
+          <p><a href="https://www.linkedin.com/in/shambhavi912/">LinkedIn</a></p>
+          <p><a href="https://www.behance.net/shambhapalanis">Behance</a></p>
+      </div>
+
+
+
     </div>
 
-    <div class="footer-section">
-      <h4>Explore</h4>
-      <ul>
-        <li><a href="/writing">Writing</a></li>
-        <li><a href="/photography">Photography</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
+    <!-- <div class="socials">
+      <img src="assets/socialMedia/email.png" alt="">
+      <img src="assets/socialMedia/linkedin.png" alt="">
+      <img src="assets/socialMedia/instagram.png" alt="">
+      <img src="assets/socialMedia/youtube.png" alt="">
+    </div> -->
+
+    <div class="footer-bottom">
+      <p>© 2026 Palanisamy Shambhavi. All rights reserved.</p>
     </div>
 
-    <div class="footer-section">
-      <h4>Connect</h4>
-      <ul>
-        <li><a href="mailto:your@email.com">Email</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Substack</a></li>
-        <li><a href="#">LinkedIn</a></li>
-      </ul>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2026 Sham P. All rights reserved.</p>
-  </div>
-
-</footer>
+  </footer>
 
 </html>
 

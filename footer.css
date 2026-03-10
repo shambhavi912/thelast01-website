@@ -1,0 +1,99 @@
+
+
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 50px 0px 30px 0px;
+  text-align: left !important; /* forces it */
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container h1,
+.footer-container h4,
+.footer-container p,
+.footer-container li,
+.footer-container a,
+.footer-bottom p {
+  color: white;
+}
+
+.footer-column{
+  background-color: black;
+  width: 60%;
+  text-align: left !important;
+}
+.footer-column,
+.footer-column.explore,
+.footer-column.connect
+{
+margin-bottom: 100px; /* adds 20px space below only */
+}
+.footer-column * {
+  text-align: left; /* aligns everything inside, including grid children */
+}
+
+.footer-column ul li {
+  text-align: left;
+}
+.footer-column h3,
+.footer-column h4 {
+  margin-bottom: 15px;
+}
+
+.footer-column p {
+  max-width: 250px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-column li {
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-column.explore{
+  background-color: black;
+  width: 20%;
+}
+/* Explore section: everything in one row */
+.footer-column.explore ul {
+  display: grid;
+  /* grid-template-columns: repeat(4, auto); */
+  gap: 30px;
+}
+
+.footer-column.connect{
+  background-color: black;
+  width: 20%;
+}
+/* Connect section: 3 items first row, 2 second row */
+.footer-column.connect ul {
+  display: grid;
+  /* grid-template-columns: repeat(3, auto); */
+  gap: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  opacity: 0.7;
+}

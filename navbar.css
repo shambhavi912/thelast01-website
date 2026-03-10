@@ -16,7 +16,7 @@ html
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: black;
   display: flex;
   position: fixed;
   top: 0;
@@ -49,7 +49,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: pink;
+  background-color: grey;
 }
 
 li.dropdown {

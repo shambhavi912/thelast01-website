@@ -1,39 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--Page title & logo-->
-    <title> projects page </title>
-    <link rel="icon" type="image/png" href="../assets/logos/favicon.png">
-
-    <link rel="icon" href="Images/thelast01logo.jpg" />
-    <!--Stylesheet Import-->
-      <!-- js import -->
-      <script src="projects.js"></script>
-      <!-- css import -->
-      <link href="projects.css" rel="stylesheet"/>
-  </head>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Page title & logo-->
+  <title> Projects | TheLast.01 </title>
+  <link rel="icon" type="image/png" href="../assets/logos/favicon.png">
+  <!--Stylesheet Import-->
+    <!-- js import -->
+    <!-- <script src="index.js"></script> -->
+    <!-- css import -->
+    <link href="../styles.css" rel="stylesheet"/>
+    <link href="../writingProjects.css" rel="stylesheet"/>
+    <!-- css import for navbar -->
+    <link href="../navbar.css" rel="stylesheet"/>
+    <!-- css import for footer -->
+    <link href="../footer.css" rel="stylesheet"/>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- for navbar-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
 
   <body>
 
     <div>
-    <h1>
-      projects Page
-    </h1>
-    <!-- insert navbar -->
-    <h1>“Selected projects exploring visual storytelling, design, and creative content.”</h1>
+      <!-- duplicate across ALL index.html pages -->
+      <div>
+        <!-- logo at the top of the page -->
+        <div>
+          <a href="../index.html">
+            <img src="../assets/logos/websiteLogo.png" alt="" class="site-logo">
+          </a>
+        </div>
+
+        <!-- introduce other pages in navBar-->
+        <div></div>
+        <nav>
+          <ul class="navbar">
+            <!-- might not include the following page later -->
+            <!-- <a href="resume/index.html">resume</a> -->
+            <li><a href="../writing/index.html">Writing</a></li>
+            <li><a href="../photography/index.html">Photography</a></li>
+            <li class="dropdown">
+              <a href="../projects/index.html">Projects</a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+            <li><a href="../about/index.html">About</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+<div class="hero">
+      <h1>Projects</h1>
+      <p>“Selected projects exploring visual storytelling, design, and creative content.”</p>
+    </div>
     <!-- give like a card or a hover thingy for each project  -->
      <!-- then link it too a full page for each project -->
-    <h1>project 1</h1>
-    <h1>project 2</h1>
-    <h1>project 3</h1>
+     <div class="writing-project-list">
+       <!-- Each writing item -->
+       <article class="writing-project-item">
+         <a href="/writings/story1.html">
+           <img src="../photography/assets/5.jpg" alt="Story 1 Thumbnail">
+           <h2>The Dawn of Everything</h2>
+           <p>This is a short excerpt or summary of the writing to entice the reader to click and read more...</p>
+         </a>
+       </article>
+
+       <article class="writing-project-item">
+         <a href="/writings/story2.html">
+           <img src="../photography/assets/5.jpg" alt="Story 2 Thumbnail">
+           <h2>City Lights and Shadows</h2>
+           <p>A glimpse into the urban life through vivid storytelling and reflection...</p>
+         </a>
+       </article>
+
+       <article class="writing-project-item">
+         <a href="/writings/story3.html">
+           <img src="../photography/assets/5.jpg" alt="Story 3 Thumbnail">
+           <h2>Whispers of the Forest</h2>
+           <p>Nature’s quiet beauty captured in words, exploring solitude and peace...</p>
+         </a>
+       </article>
+
+       <!-- Add more writings -->
+     </div>
+
     <!-- maybe each full page can be similar to the behance writing portfolios you have seen, like lsideshwos and arrows -->
   </div>
 
   </body>
 
-<footer>
-</footer>
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <div class="footer-column">
+        <h1>Palanisamy Shambhavi</h1>
+        <h4>Writer, photographer, and creative storyteller.</h4>
+      </div>
+
+      <div class="footer-column explore">
+        <h4>Explore</h4>
+          <p><a href="/writing">Writing</a></p>
+          <p><a href="/photography">Photography</a></p>
+          <p><a href="/projects">Projects</a></p>
+          <p><a href="/about">About</a></p>
+      </div>
+
+      <div class="footer-column connect">
+        <h4>Connect</h4>
+          <p><a href="mailto:p.shambhavi.01@gmail.com">Email</a></p>
+          <p><a href="https://www.instagram.com/thelast.01?igsh=a3dubzdybmFxbXIz">Instagram</a></p>
+          <p><a href="https://substack.com/@theangrydaughter/posts">Substack</a></p>
+          <p><a href="https://www.linkedin.com/in/shambhavi912/">LinkedIn</a></p>
+          <p><a href="https://www.behance.net/shambhapalanis">Behance</a></p>
+      </div>
+
+
+
+    </div>
+
+    <!-- <div class="socials">
+      <img src="assets/socialMedia/email.png" alt="">
+      <img src="assets/socialMedia/linkedin.png" alt="">
+      <img src="assets/socialMedia/instagram.png" alt="">
+      <img src="assets/socialMedia/youtube.png" alt="">
+    </div> -->
+
+    <div class="footer-bottom">
+      <p>© 2026 Palanisamy Shambhavi. All rights reserved.</p>
+    </div>
+
+  </footer>
+
 
 </html>

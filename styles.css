@@ -5,18 +5,34 @@
   color: black;
   text-align: center;
   box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  /* scolor: #1a1a1a; */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;/* optional: hides horizontal overflow */
+}
 
+h1, h2, h3 {
+  font-family: "Dream Avenue", serif;
 }
 
 html
 {
   scroll-behavior: smooth;
   height: 100%;
-}
-html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* optional: hides horizontal overflow */
+  overflow-x: hidden;/* optional: hides horizontal overflow */
+}
+
+
+/* website logo styling */
+.site-logo {
+  width: 10%;   /* adjust size */
+  height: auto;   /* keeps proportions */
 }
 
 /* carousel styling */
@@ -167,50 +183,4 @@ padding: 0px;
 }
 .projects-grid img {
   width: 100%;
-}
-
-
-
-/* footer styling */
-.site-footer {
-  border-top: 1px solid #ddd;
-  margin-top: 60px;
-  padding: 40px 20px;
-  font-size: 14px;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.footer-section h3,
-.footer-section h4 {
-  margin-bottom: 10px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: 6px;
-}
-
-.footer-section a {
-  text-decoration: none;
-  color: black;
-}
-
-.footer-section a:hover {
-  text-decoration: underline;
-}
-
-.footer-bottom {
-  margin-top: 30px;
-  text-align: center;
-  color: #777;
 }

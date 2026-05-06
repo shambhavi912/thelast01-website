@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "I am not proud.",
       subtitle: "On achieving everything and wanting none of it",
       date: "11 Jun 2025",
-      image: "../assets/writing/1.jpg",
+      image: "../writing/assets/IMG_5213.jpeg",
       content: `
         <p>Two months ago, I graduated with a first-class honours in computer science. Two weeks ago, I ended my internship at a Fortune 100 company. I’ve won awards throughout my school days, and I have a vibrant life outside of work and studies. I like to believe I am a good daughter, sister, friend, and girlfriend. And deep down, I know I'm a good person even though I doubt it during my lowest moments. But I am here to say that I have nothing to be proud of.
         </p>
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "the bittersweet feeling of coming home",
       subtitle: "The anxiety that boarded the plane home with me",
       date: "1 Aug 2025",
-      image: "../assets/writing/2.jpg",
+      image: "../writing/assets/IMG_2825.jpg",
       content: `
 
       <p>I have just come back from what felt like a dream - a three-week vacation in the UK. For once, I didn't have to think about any pending school assignments because I am a university graduate. I also didn't have to think about what new work my boss might give me, because I am unemployed. I had the most fun on this trip exploring new places I hadn't even heard of, visiting iconic landmarks I had only dreamt of, staying with friends I hadn't seen in two years, having a drink or two every other night, and eating like there’s no tomorrow. It was the happiest I had been in years, and it felt like the spark I had lost had finally come back.
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "the anger inheritance",
       subtitle: "The things we swallow for the people we love",
       date: "19 Dec 2025",
-      image: "../assets/writing/2.jpg",
+      image: "../writing/assets/laura-chouette-Hj8eZ_wK1eM-unsplash.jpg",
       content: `
 
       <p>It is 3 a.m. on a monsoon night when I open my eyes. I hear the faint sound of music still playing from my headphones, long removed from my head. I see a faint trace of the night light behind the person lying next to me. My sleepiness suddenly leaves me, an unexpected bout of annoyance taking its place. I like to sleep in total darkness.
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "what i've been getting wrong about love",
       subtitle: "on friendships and romance",
       date: "06 Feb 2026",
-      image: "../assets/writing/2.jpg",
+      image: "../writing/assets/IMG_9110.jpg",
       content: `
       <p>Last night, my mum’s friend came to visit and stayed the night. She brought my mum some jewellery she’d made herself – three different beaded necklaces in vibrant shades of blue, green, and violet with an interchangeable crescent-shaped metal pendant. She told us about the kind of string she used, the beads she bought, and the time it took her to painstakingly thread the tiny beads with her own two hands.
       </p>
@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "things I never said out loud about my body",
       subtitle: "some things take longer than others to unlearn",
       date: "02 Apr 2026",
-      image: "../assets/writing/2.jpg",
+      image: "../writing/assets/lillith-patzer-bxKtrVCbFyA-unsplash.jpg",
       content: `
       <p>A month ago, I met up with some of my friends from university after months of not seeing them. We had a good time, we went shopping (more window shopping than actual shopping), and we ate some really good food accompanied by some drinks that felt a little indulgent. All we did was walk around the mall for a few hours, but I was spent by the time I got back home. My knees were aching, and my feet were hurting badly, and I wasn't even wearing heels. Then a scary thought elbowed its way from the back of my mind. “What if I had gained weight?”
       </p>
@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //   title: "The Weight of Silence",
     //   subtitle: "What silence says when words fail",
     //    date: "1 apr 2026",
-    //   image: "../assets/writing/2.jpg",
+    // image: "../writing/assets/IMG_5213.jpeg",
     //   content: `
     //     <p>Silence is often misunderstood.</p>
     //     <p>It carries more meaning than we realise.</p>

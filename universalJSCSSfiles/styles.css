@@ -107,9 +107,9 @@ html
 
             .main-body
             {
-              margin-left: 5%;
-              margin-right: 5%;
-              /* background: red; */
+              width: 80%;
+              margin: 0 auto;
+
             }
             .gap-format
             {

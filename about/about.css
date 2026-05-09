@@ -1,5 +1,92 @@
-.about-page
-{
-  width: 90%;
+.about-page {
+  width: 80%;
+  /* max-width: 1200px; */
   margin: 0 auto;
+}
+
+/* TITLE */
+
+.about-title {
+  padding: 2%;
+}
+
+.about-title h1 {
+  font-size: 72px;
+  font-weight: 400;
+}
+
+/* INTRO SECTION */
+
+.about-intro {
+  display: grid;
+  grid-template-columns: 30% 65%;
+
+  gap: 5%;
+  align-items: center;
+
+  /* margin-bottom: 120px; */
+}
+
+/* IMAGE */
+.about-image img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+  display: block;
+}
+
+/* TEXT */
+.about-text{
+width: 100%;
+}
+
+
+.about-text h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.8;
+
+  margin-bottom: 20px;
+}
+
+/* BOTTOM CARDS */
+
+.about-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+
+  margin: 5%;
+}
+
+.about-card {
+  padding: 40px;
+
+  border: 1px solid #ddd;
+  border-radius: 20px;
+
+  transition: 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  border-color: black;
+}
+
+.about-card h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-card p {
+  font-size: 16px;
+  line-height: 1.6;
 }

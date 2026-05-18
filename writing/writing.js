@@ -201,6 +201,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
       `,
       link: "https://theangrydaughter.substack.com/p/things-i-never-said-out-loud-about"
+    },
+    {
+      title: "a love letter to my best friend",
+      subtitle: "on the pain and beauty of long-distance friendships",
+      date: "18 may 2026",
+      image: "../writing/assets/IMG_8182.JPG",
+      content: `
+      <p>I had a really tough day today.</p>
+  <p>    I woke up two hours later than usual. I didn’t have a fulfilling breakfast, my body was weak, and my mind was tired. The dirty dishes from last night were still in the sink. I forgot my diet and ordered some unhealthy food as I couldn’t be arsed to cook. I spent an inane number of hours doomscrolling on my phone and rewatching the same few episodes of the same sitcom for what seemed like the hundredth time.</p>
+    <p>  Then it rained. Not the kind that washes away your sorrows, but the kind that comes in at sharp angles and pierces through your skin. It came in through my windows and drenched the clothes I had left on my chair. I was trapped in a sad, soulless room, both by my own feelings and the torrential downpour just outside. So I napped.</p>
+    <p>  By the time I woke up, the rain had stopped and left behind in its absence a cold night. I decided to step out of the house for the first time in three days, hoping the cold would shock me back to life. I walked aimlessly around the neighbourhood I have lived in for almost twenty years now. The thought of going back to an empty house on a day like today made me wanna curl up into a ball.</p>
+    <p>  So I decided to walk to my best friend’s house instead. She lives a mere five minutes away from me. I knocked on her door, and she invited me in with that radiant smile of hers. We sat, and we chatted for hours, laughing at stupid jokes and reminiscing about old school memories. My bad day was no longer bad. That is what she does.</p>
+    <p>  That is what I wish had happened. This is what happened instead.</p>
+    <p>  Standing by the road, waiting for the crosswalk to turn green, I took my phone out to text my best friend.</p>
+    <p><i> <b> “I wish you were here.”</b></i></p>
+  <p>    I walked back home, left with nowhere else to go, tears threatening to make their way down my cheeks. I locked the door behind me, took a look at my quiet, depressing home, sighed, and cried.</p>
+    <p>  I’ve known my best friend for thirteen years, but we have not lived in the same country for eight of them.</p>
+    <p>  She knows my biggest fears, but she doesn’t know the colour of my bedsheets. I know her deepest desires, but I didn’t know she got a tattoo. She knows what makes me cry on lonely nights like this, but she doesn’t know what I had for lunch today. I know what drives her, but I don’t know where she works.</p>
+    <p>  We’ve cried to each other over the phone countless times over things that ail our hearts, and we’ve celebrated each other’s biggest wins over video calls. In moments like those, I feared this was my life’s greatest misery – having a true friend in a cruel world, but living thousands of miles away from each other.</p>
+    <p>  We always talk about just how much more enjoyable and easier life would be if only we still lived five minutes away from each other. But what would that even look like?</p>
+    <p>  Would I still have cried when you showed up at my doorstep on a random day? Would you still have ditched work to bring me to the beach? Would I still have brought you to the cafe that sells my favourite bagels? Would you still have laughed at me when I had to buy an extra bag on vacation because I indulged in so much shopping?</p>
+    <p>  I guess these are questions that I will never truly know how to answer.</p>
+    <p>  But what I do know with conviction is that in the distance between us lives love, respect, and admiration for each other. Although we live whole lives that the other only partially sees, our relationship has transcended space and time. We’ve seen each other grow from being awkward teenagers to confident young women, always empowered by each other. So this isn’t my life’s greatest misery; it is my life’s greatest blessing.</p>
+    <p>  I always wish you were here, but I am also always glad that you exist.</p>
+
+      `,
+      link: "https://open.substack.com/pub/theangrydaughter/p/a-love-letter-to-my-best-friend?r=5hd33i&utm_campaign=post-expanded-share&utm_medium=post%20viewer"
     }
 
     // ------- copy and paste the following whenever you add new articles --------

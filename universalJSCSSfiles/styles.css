@@ -151,6 +151,7 @@ html
           display: grid;
           grid-template-columns: 120px 1fr;
           align-items: center;
+          border-radius: 20px;
 
           border: 1px solid #ccc;
           padding: 5%;
@@ -160,7 +161,9 @@ html
         }
 
         .writing-pair:hover {
-          border-color: red;
+          border: 5px solid #ccc;
+          border-color: #e4d8c6;
+          border-radius: 20px;
         }
 
         .writing-pair img {
@@ -239,8 +242,20 @@ html
               grid-column: span 2;
             }
 
+            /* the caption styling isnt wokring lol */
 
+            .caption {
+              /* position: absolute;
+              bottom: 10px;
+              left: 10px; */
 
+              color: black;
+              font-size: 140px;
+
+              /* background: rgba(0,0,0,0.4); */
+              padding: 4px 8px;
+              /* border-radius: 4px; */
+            }
 
 
 /* projects grid styling */
@@ -381,3 +396,47 @@ html
   background: #f6f6f6;
   transform: translateX(4px);
 } */
+
+
+
+/* for the writing popuo modalLink */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0,0,0,0.7);
+
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-content {
+  background: white;
+
+  width: 80%;
+  max-width: 700px;
+
+  padding: 2rem;
+
+  max-height: 90vh;
+
+  overflow-y: auto;
+}
+
+.close {
+  cursor: pointer;
+  font-size: 2rem;
+}

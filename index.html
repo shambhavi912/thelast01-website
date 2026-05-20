@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="assets/logos/favicon.png">
     <!--Stylesheet Import-->
       <!-- js import -->
-      <!-- <script src="index.js"></script> -->
+      <script src="index.js"></script>
       <!-- css import -->
       <link href="universalJSCSSfiles/styles.css" rel="stylesheet"/>
       <!-- css import for navbar -->
@@ -102,38 +102,49 @@
 
         <div class="writing-grid">
 
-          <a href="writing/index.html">
-          <div class="writing-pair">
+          <div class="writing-pair" data-id="0">
             <img src="writing/assets/IMG_5213.jpeg">
             <div class="writing-desc">
               <h4>i am not proud.</h4>
-              <h4> </h4>
               <p>on achieving everything and wanting none of it.</p>
             </div>
           </div>
-        </a>
 
-        <a href="writing/index.html">
-          <div class="writing-pair">
+          <div class="writing-pair" data-id="1">
             <img src="writing/assets/IMG_2825.jpg">
             <div class="writing-desc">
               <h4>the bittersweet feeling of coming home</h4>
               <p>the anxiety that boarded the plane home with me</p>
             </div>
           </div>
-        </a>
 
-          <a href="writing/index.html">
-          <div class="writing-pair">
+          <div class="writing-pair" data-id="2">
             <img src="writing/assets/IMG_9110.jpg">
             <div class="writing-desc">
               <h4>what i've been getting wrong about love</h4>
               <p>on friendships and romance</p>
             </div>
           </div>
-        </a>
 
         </div>
+
+        <div id="modal" class="modal">
+  <div class="modal-content">
+
+    <span id="closeBtn" class="close">&times;</span>
+
+    <h2 id="modalTitle"></h2>
+    <p id="modalSubtitle" class="subtitle"></p>
+    <p id="modalDate" class="date"></p>
+    <div id="modalBody"></div>
+
+    <a id="modalLink" target="_blank" class="cta">
+      Read on Substack →
+    </a>
+
+  </div>
+</div>
+
 
 <div class="see-more">
         <a href="writing/index.html">
@@ -150,31 +161,37 @@
         </div>
         <!-- add the featured images and respective links -->
         <section class="featured-grid">
-
+<!-- the captions arent working -->
           <!-- row 1 -->
           <div class="photo square">
             <img src="photography/assets/9.jpg">
+            <div class="caption">Caption 1</div>
           </div>
 
           <div class="photo square">
             <img src="photography/assets/12.jpg">
+            <div class="caption">Caption 2</div>
           </div>
 
           <div class="photo landscape">
             <img src="photography/assets/14.jpg">
+            <div class="caption">Caption 3</div>
           </div>
 
           <!-- row 2 -->
           <div class="photo landscape">
             <img src="photography/assets/32.jpg">
+            <div class="caption">Caption 4</div>
           </div>
 
           <div class="photo square">
             <img src="photography/assets/20.jpeg">
+            <div class="caption">Caption 5</div>
           </div>
 
           <div class="photo square">
             <img src="photography/assets/29.jpg">
+            <div class="caption">Caption 6</div>
           </div>
 
         </section>

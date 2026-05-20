@@ -1,0 +1,87 @@
+/* PAGE WRAPPER */
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  min-height: 70vh;
+  background: #fff;
+}
+
+/* MAIN CONTAINER */
+.contact-container {
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+/* TITLE */
+.contact-container h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* INTRO TEXT */
+.contact-intro {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* LINKS WRAPPER */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* EACH LINK CARD */
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 20px;
+  border: 1px solid #e4d8c6;
+  border-radius: 20px;
+
+  text-decoration: none;
+  color: #111;
+  font-size: 16px;
+
+  transition: all 0.25s ease;
+}
+
+/* SUBTEXT */
+.contact-item span {
+  font-size: 14px;
+  color: #777;
+}
+
+/* HOVER EFFECT */
+.contact-item:hover {
+  background: #111;
+  color: #fff;
+  transform: translateY(-2px);
+  border-radius:
+}
+
+.contact-item:hover span {
+  color: #ddd;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .contact-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .contact-container h1 {
+    font-size: 32px;
+  }
+}

@@ -13,26 +13,57 @@ html
 
 /* navigation bar styling */
 .navbar {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
+
   background-color: black;
+
   display: flex;
+  justify-content: space-evenly; /* equal spacing */
+  align-items: center;
+
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.navbar li a {
-  display: block;
-  color: #e4d8c6;
-  padding: 14px 16px;
-  text-decoration: none;
+/* EACH NAV ITEM */
+.navbar li {
+  flex: 1; /* equal width */
 }
 
-li {
-  float: left;
+/* LINKS */
+.navbar li a {
+  display: block;
+
+  width: 100%;
+  padding: 20px 0;
+
+  color: #e4d8c6;
+  text-decoration: none;
+  font-size: 25px;
+
+  transition: 0.3s;
 }
+
+/* FULL BLOCK HOVER */
+.navbar li a:hover {
+  background-color: grey;
+  color: white;
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .navbar li a {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+}
+
 
 /* this isnt working though, check it later */
 @media screen and (max-width: 600px) {
@@ -41,7 +72,6 @@ li {
 }
 
 li a, .dropbtn {
-  display: inline-block;
   color: #e4d8c6;
   text-align: center;
   padding: 14px 16px;

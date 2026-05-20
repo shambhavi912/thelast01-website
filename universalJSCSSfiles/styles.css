@@ -103,8 +103,17 @@ html
   background: #333;
 }
 
+            .homepageImage {
+              width: 100%;
+              overflow: hidden;
+            }
 
-
+            .homepageImage img {
+              width: 100%;
+              height: auto;
+              display: block;
+              object-fit: contain;
+            }
             .main-body
             {
               width: 80%;

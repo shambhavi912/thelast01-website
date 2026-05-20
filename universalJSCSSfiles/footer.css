@@ -3,7 +3,7 @@
 
 .footer {
   background-color: black;
-  color: white;
+  color: #e4d8c6;
   padding: 50px 0px 30px 0px;
   text-align: left !important; /* forces it */
 }
@@ -21,7 +21,7 @@
 .footer-container li,
 .footer-container a,
 .footer-bottom p {
-  color: white;
+  color: #e4d8c6;
 }
 
 .footer-column{
@@ -61,7 +61,7 @@ margin-bottom: 100px; /* adds 20px space below only */
 }
 
 .footer-column a {
-  color: white;
+  color: #e4d8c6;
   text-decoration: none;
 }
 

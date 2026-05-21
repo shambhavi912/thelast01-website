@@ -243,15 +243,12 @@ html
             }
 
             /* the caption styling isnt wokring lol */
-
             .caption {
               /* position: absolute;
               bottom: 10px;
               left: 10px; */
-
               color: black;
               font-size: 140px;
-
               /* background: rgba(0,0,0,0.4); */
               padding: 4px 8px;
               /* border-radius: 4px; */

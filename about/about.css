@@ -10,10 +10,10 @@
   padding: 2%;
 }
 
-.about-title h1 {
+/* .about-title h1 {
   font-size: 72px;
   font-weight: 400;
-}
+} */
 
 /* INTRO SECTION */
 
@@ -44,16 +44,8 @@
 width: 100%;
 }
 
-
-.about-text h2 {
-  font-size: 42px;
-  margin-bottom: 30px;
-}
-
 .about-text p {
-  font-size: 18px;
   line-height: 1.8;
-
   margin-bottom: 20px;
 }
 

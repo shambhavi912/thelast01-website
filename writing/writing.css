@@ -22,6 +22,8 @@ body {
 
 /* CARD */
 .card {
+  border: 1px solid #cfcfcf !important;
+  border-radius: 10px;
   background: white;
   border-radius: 8px;
   overflow: hidden;
@@ -52,7 +54,10 @@ body {
 /* HOVER */
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-shadow:
+    0 12px 30px rgba(0,0,0,0.25),
+    0 4px 10px rgba(0,0,0,0.15);
+}
 }
 
 /* MODAL */

@@ -1,4 +1,4 @@
-/* apply across all pages */
+/* ---------- apply across all pages ---------- */
 *
 {
   font-family: serif, Times New Roman, Georgia;
@@ -11,100 +11,100 @@ html
   height: 100%;
 }
 
-/* navigation bar styling */
+
+
+/* ---------- navigation bar styling ---------- */
 .navbar {
   list-style: none;
   margin: 0;
   padding: 0;
-
   background-color: black;
-
   display: flex;
   justify-content: space-evenly; /* equal spacing */
   align-items: center;
-
   position: fixed;
   top: 0;
   width: 100%;
 }
-
-/* EACH NAV ITEM */
-.navbar li {
-  flex: 1; /* equal width */
+.navbar li
+{
+  flex: 1;
 }
 
-/* LINKS */
-.navbar li a {
-  display: block;
 
+
+/* ---------- the words on the bar ---------- */
+.navbar li a
+{
+  display: block;
   width: 100%;
   padding: 20px 0;
-
   color: #e4d8c6;
   text-decoration: none;
   font-size: 25px;
-
   transition: 0.3s;
 }
-
-/* FULL BLOCK HOVER */
-.navbar li a:hover {
+.navbar > li > a:hover
+{
   background-color: grey;
   color: white;
 }
 
 
-/* MOBILE */
-@media (max-width: 768px) {
 
-  .navbar li a {
-    font-size: 14px;
-    padding: 10px 12px;
-  }
-
+/* ---------- for the dropdown ---------- */
+.dropdown
+{
+  position: relative;
 }
-
-
-/* this isnt working though, check it later */
-@media screen and (max-width: 600px) {
-  ul.navbar li.right,
-  ul.navbar li {float: none;}
-}
-
-li a, .dropbtn {
-  color: #e4d8c6;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: grey;
-}
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
+.dropdown-content
+{
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  top: 100%;
+  left: 0;
+  min-width: 100%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
   z-index: 1;
+  transition: all 0.2s ease;
 }
-
-.dropdown-content a {
-  /* fontColor: red; */
-  padding: 12px 16px;
-  text-decoration: none;
+.dropdown-content a
+{
+  color: black !important;
+  font-size: 10px;
+  padding: 20px;
   display: block;
   text-align: left;
 }
-
-.dropdown-content a:hover {background-color: yellow;}
-
-.dropdown:hover .dropdown-content {
+li.dropdown
+{
+  display: inline-block;
+}
+.dropdown:hover .dropdown-content
+{
   display: block;
+}
+.dropdown-content a:hover
+{
+  background-color: #e4d8c6;
+  color: black;
+}
+
+
+
+/* ---------- responsive styling  ----------*/
+@media (max-width: 768px)
+{
+  .navbar li a
+  {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+}
+@media screen and (max-width: 600px)
+{
+  ul.navbar li.right,
+  ul.navbar li {float: none;}
 }

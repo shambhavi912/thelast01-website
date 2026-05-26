@@ -1,0 +1,127 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.project-hero {
+  /* padding: 120px 10%; */
+  width: 90%;
+  /* background-color: red; */
+  margin: 50px auto;
+
+}
+
+.project-hero-content h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hero-bottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 80px;
+}
+
+/* TOC BOX */
+.toc-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.toc-box {
+  width: 320px;
+  padding: 25px;
+
+  border: 1px solid #d9d9d9;
+  border-radius: 12px;
+
+  background: #fff;
+}
+
+.toc-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.toc-box li {
+  margin: 10px 0;
+  color: black;
+}
+
+.toc-box ul ul {
+  padding-left: 18px;
+  margin-top: 8px;
+}
+
+.toc-box a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.toc-box a:hover {
+  color: #ff4d4d;
+  font-style: italic;
+}
+
+/* DESCRIPTION */
+
+.project-description-container {
+  max-width: 500px;
+}
+
+.project-description {
+  line-height: 1.8;
+}
+.project-section {
+  width: 90%;
+  margin: 120px auto;
+  text-align: left;
+  /* background-color: pink; */
+}
+
+.project-section h1,
+.project-section h3,
+.project-section p {
+  text-align: left;
+}
+
+.subsection {
+  margin-top: 50px;
+}
+
+.placeholder-box {
+  width: 100%;
+  height: 300px;
+  border: 1px dashed #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+
+/*  wirefram section styling */
+.wireframeDesc-box
+{
+  display: flex;
+align-items: center;
+gap: 30px;
+
+padding: 20px;
+border: 1px dashed #999;
+}
+
+.wireframeDesc-box p {
+  margin: 0;
+  max-width: 400px;
+}
+
+.wireframeImages {
+  width: 50%;   /* adjust as needed */
+  height: auto;
+  object-fit: contain;
+}

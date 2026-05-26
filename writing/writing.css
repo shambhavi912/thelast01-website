@@ -64,10 +64,12 @@ body {
 .modal {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.85);
-  display: none; /* hidden by default */
+
+  display: none;
   justify-content: center;
   align-items: center;
+
+  background: rgba(0,0,0,0.85);
 }
 
 .modal.show {
@@ -77,12 +79,33 @@ body {
 .modal-content {
   background: white;
   padding: 30px;
-  max-width: 700px;
+
   width: 90%;
+  max-width: 700px;
+
   max-height: 80vh;
   overflow-y: auto;
+
   border-radius: 8px;
+
   position: relative;
+
+  margin: auto;
+}
+
+.modal-content {
+  animation: pop 0.2s ease;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* CLOSE BUTTON */

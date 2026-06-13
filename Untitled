@@ -1,0 +1,476 @@
+<!-- ================= CHAPTER 1 ================= -->
+
+<section id="chapter1" class="project-section">
+
+  <h1>CHAPTER 1: INTRODUCTION</h1>
+  <p>The objective of this report is to highlight all the resources and information collected, along with the
+preliminary steps and processes taken in building a word building game, WordEureka!.</p>
+
+
+  <div id="project-concept" class="subsection">
+    <h3>1.1 Project Concept</h3>
+
+    <p>
+      A commonly faced issue in youngsters today is that of ‘brainrot’ [19], in which individuals experience
+      symptoms of mental fogginess, poor memory, and cognitive decline amongst others . Professionals
+      believe that brainrot happens to be a side effect of increased social media usage. With mobile devices
+      being highly accessible, social media becomes an aspect of life that is unavoidable.      </p>
+      <p>
+      WordEureka! is a word building game that hopes to challenge the brain and help improve mental
+      health by providing an alternative to incessant scrolling on social media. It targets Singaporean youths
+      of ages 13 - 25 as they are the primary users of many social media platforms. On top of being a word
+      building game, it would include a ‘word of the day’ function to help users better their vocabulary, a
+      friend mode so individuals can play against friends, customisable settings, and game statistics to track
+      the user’s progress. Additionally, WordEureka! is secure as it does not retrieve or store sensitive data
+      like banking details, gender, or age.          </p>
+  </div>
+
+  <div id="aims-objectives" class="subsection">
+    <h3>1.2 Aims and Objectives</h3>
+
+    <p>The aim of WordEureka! is as follows:
+● To combat "brainrot" in Singaporean youths (aged 13-25) by providing an accessible and
+useful alternative to excessive social media usage, thereby bettering their mental health.
+The objectives of WordEureka! are as follows:
+● To provide an engaging mechanism behind the word building game that will promote
+cognitive skills and thus help prevent brain rot
+● To develop social features to promote real life social interaction over social media interaction
+● To develop customisable application settings to make the application accessible to all</p>
+  </div>
+
+  <div id="deliverables" class="subsection">
+    <h3>1.3 Deliverables</h3>
+
+    <p>
+The deliverables for this project can be split into two categories - the main deliverable and the
+assignment deliverables.
+</p><p>The main deliverable will be the application itself. Named WordEureka!, it is a word building game
+application for mobile devices.</p><p>
+The assignment deliverables include the preliminary report, feature prototype, and demo video for the
+midterm submission. The assignment deliverables for the final submission includes the final report,
+the final working prototype, and a presentation video.        </p>
+  </div>
+
+</section>
+
+<!-- ================= CHAPTER 2 ================= -->
+
+<section id="chapter2" class="project-section">
+
+  <h1>CHAPTER 2: LITERATURE REVIEW</h1>
+  <p>This section of the report begins by discussing research and studies that explore and justify the claims
+of WordEureka!. This section will then demonstrate gaps that WordEureka! will attempt to fill by
+exploring pre-existing applications in the same domain.</p>
+
+  <div id="brainrot" class="subsection">
+    <h3>2.1 Brain rot and how it manifests</h3>
+
+    <p>
+An article by Newport Institute defined brain rot as a syndrome caused by excessive screen usage
+which manifests as sluggishness, shortened attention span, and cognitive decline [19], and can have a
+multitude of negative effects on the mental health of youngsters such as difficulties in retaining and
+classifying information, decision-making, and problem-solving.</p>
+<p>The article discussed how incessant scrolling on social media can turn into a form of addiction as it
+increases dopamine, the “feel-good” hormone [19]. This results in the brain associating scrolling with
+feelings of happiness and fulfilment even when the individual is conscious of the detrimental effects it
+may carry. Their research showed that the negative effects on attention and memory can even manifest
+physically over time as it might have changed the brain’s grey matter. Brainrot could manifest in other
+forms such as doom scrolling, where an individual actively seeks out disturbing information and
+adverse news, or zombie scrolling, where a user makes a habit of mindlessly scrolling with no real
+benefit [19].</p>
+<p>It also discussed multiple ways such as limiting time on social media or doing a digital detox for
+youngsters to battle brain rot and its side effects, and highlighted playing word games [19] as a
+method to challenge the brain and keep it active, and to grow it with exertion over time . This supports
+WordEureka! in achieving its aim to help youths improve their mental health by providing a better
+alternative to incessant scrolling - a word building game.        </p>
+  </div>
+
+  <div id="socialmedia-impact" class="subsection">
+    <h3>
+      2.2 Social media prevalence in Singapore and its negative impact on youths
+    </h3>
+
+    <p>
+Meltwater, a company that monitors online media, highlighted the high prevalence of social media in
+Singapore in 2024. It reported that there were 5.13 million identities on social media out of the
+overall population of 6.03 million, indicating an 85% penetration rate [21] (Figure A1, Appendix A).
+It further revealed that out of the daily average of 4 hours and 31 minutes that individuals spent on
+their phones, a significant 29.5% of it was spent on social media platforms with only 15.8% on
+productivity apps [21] (Figure A2, Appendix A). It also noted how Singaporeans use a monthly
+average of 6.9 social media platforms (Figure A3, Appendix A).</p><p>
+With the high presence of social media in Singapore came the necessity to look out for its potentially
+harmful side effects. During a sitting at parliament in February 2024 [12], Singapore’s Prime Minister
+Lawrence Wong addressed mental well-being as a crucial priority for the nation as youngsters of the
+current generation were becoming increasingly concerned about their mental health. The Straits Times
+reported that he highlighted how there are multiple factors stemming from social media that could
+negatively impact mental health, including but not limited to the urge to continuously project a
+favourable online identity, cyber bullying, and FOMO (fear of missing out) [12]. Additionally, he
+noted that increased social media usage could inhibit the development of a healthy brain as it results
+in decreased physical activities, lack of sleep, and reduced face-to-face communications. This
+eventually leads to youngsters struggling with the fundamental intellectual and emotional abilities
+required to lead a healthy adult life, making it crucial to cultivate good social media habits as early as
+possible.</p><p>
+These statistics highlighted the growing concerns surrounding the negative impacts of social media on
+mental health, especially among Singaporean youths. While it may be impossible to fully eradicate the
+usage of social media due to its high prevalence, a word building game such as WordEureka! could
+serve as a beneficial alternative to incessant scrolling. Word-building challenges, which lie at the core
+of WordEureka!, are able to prompt mental activities like language enhancement, memory
+recollection, and critical thinking abilities. Thus, this word building game could potentially mitigate
+the adverse effects of social media, improve their mental health, enhance vocabulary development,
+and heighten intellectual abilities such as memory function and problem-solving skills.        </p>
+  </div>
+
+  <div id="cognitive-skills" class="subsection">
+    <h3>2.3 Brain teaser games effects on cognitive skills</h3>
+
+    <p>
+A journal published by the Iranian Neuroscience Society on Basic and Clinical Neuroscience (BCN)
+[13] concluded that there was a positive correlation between playing brain teaser games and cognitive
+behaviours.</p><p>
+The journal began by explaining the two types of stress generated in people playing brain teaser
+games – limit stress and logic stress – both of which had a positive impact on cognitive abilities such
+as attention, problem-solving and concentration [13]. Logic stress was observed in puzzle games
+where there are no time limits, while limit stress was observed in games where the player could lose
+(time stress). These improved cognitive abilities, hand-eye coordination, attention, and concentration
+due to their effects on the frontal lobe of the brain [13] .</p><p>
+In this study, participants were required to play a brain teaser game and cognitive tests were
+performed on them using PASAT software (used to assess information and cognitive processing
+speed) [5] before and after the game in order to examine their cognitive abilities. The test’s results
+(Figure B1, Appendix B) showed how the experimental group showed a significant improvement in
+attention after playing the game while there was little to no difference in the control group who did
+not play the game. The test revealed an increase in the stress levels of the experimental group after the
+game (Figure B2, Appendix B), while there was little to no difference in the control group [13].
+</p><p>Based on this research, incorporating time constraints in a word game could enhance mental abilities
+and health. This finding informed the design of WordEureka!, suggesting that integrating time limits
+in the game could lead to better cognitive abilities and improved mental health as it combines
+elements of limit and logic stress, similar to the game used in this study by the Iranian Neuroscience
+Society. The exploration of this study is crucial as it provides a scientific rationale for the
+development of this application.        </p>
+  </div>
+
+</section>
+
+<!-- ================= CHAPTER 3 ================= -->
+
+<section id="chapter3" class="project-section">
+
+  <h1>CHAPTER 3: PROJECT DESIGN</h1>
+<p>This section of the report discusses the design and development processes behind WordEureka!. It
+dives into the key aspects of the project such as the domain, design choices, application architecture,
+tools used, the work plan, and the testing and evaluation methods to be used.</p>
+  <div id="domain-users" class="subsection">
+    <h3>3.1 Domain and Users</h3>
+
+    <p>
+WordEureka!'s target audience is Singaporean youths of ages 13 - 25 as they are more susceptible to
+the negative side effects of prolonged social media usage. According to the American Psychology
+Association (APA) [34], the adolescent brain desires for attention and becomes more sensitive to
+comments from peers. This makes them highly engaged with social media platforms and digital
+content, thus making them vulnerable to the harms of social media.</p><p>
+However, although the primary target audience of the game is youths, anyone who is interested in
+such games are considered secondary users of WordEureka! This application falls under the domain of
+educational entertainment and casual learning as it aims to provide an engaging experience while
+stimulating cognitive skills.        </p>
+  </div>
+
+  <div id="design-choices" class="subsection">
+    <h3>3.2 Design Choices</h3>
+
+    <p>
+      Placeholder text.
+    </p>
+  </div>
+
+</section>
+
+<!-- ================= CHAPTER 4 ================= -->
+
+<section id="chapter4" class="project-section">
+
+  <h1>CHAPTER 4: IMPLEMENTATION</h1>
+<p>This chapter details the process of developing and improving WordEureka!, with an emphasis on the
+iterative method used to improve the functionality and user interface of the application. This section
+also discusses technical implementations like AsyncStorage, stack navigation and API interactions,
+and design aspects like sound effects integration and responsive UI.</p>
+  <div id="iteration1" class="subsection">
+    <h3>4.1 Iteration 1 and Feedback on App Features</h3>
+
+    <p>
+During the initial stages of development, potential users were provided with a bare bones application
+with the following key features implemented and were asked for their feedback on them:
+● Word of the day feature: To help improve vocabulary
+● Shareable score: To promote social interaction
+● Past game statistics: To track progress across games
+● Solo and multiplayer options: To offer flexibility in gameplay.
+● Customisable settings: For personalised and accessible user experience.
+● Engaging sound effects and animations: To improve user engagement.
+● Push notifications: To keep users informed and engaged.
+The feedback results are summarised in figure 14 and table 2 below.        </p>
+<p>As shown in the diagrams above, out of the main features that WordEureka! had planned to
+implement, the users felt that the push notifications were not necessary in the game as 36.7% voted
+for “somewhat” or “very unimportant” and 30% voted for neutral. Consequently, it was decided to
+exclude push notifications from the final version of WordEureka! based on this input.
+</p><p>Conversely, there was an overwhelming percentage of users that voted for “somewhat” or “very
+important” for the other features.These features will therefore be prioritised and incorporated into the
+final product to meet user expectations and enhance the overall gaming experience in WordEureka!.
+</p><p>Since WordEureka! is a user centric application that aims to better the mental health of users, this
+feedback was instrumental in the development process of WordEureka as it helped ensure that the
+final product would align with the users’ needs and expectations. It also essentially helps support
+users’ wellbeing by prioritising features that were found valuable and by discarding features that were
+deemed unnecessary.</p>
+  </div>
+
+  <div id="iteration1" class="subsection">
+    <h3>4.2 Iteration 2 and Feedback</h3>
+    <p>After receiving feedback on the app's features in the first iteration, the second coding sprint focused
+on refining essential features, discarding unnecessary ones, and implementing UI elements such as
+colours and layout based on the high-fidelity wireframes. Once this iteration of WordEureka! was
+completed, users were asked for feedback, this time on the UI design rather than the app's features.
+</p><p>Users provided input on the layout, element placement, and colour scheme across various pages, as
+well as suggestions for improvement. The most notable feedback was that the initial colour scheme
+(Figure 8) was too jarring and incoherent. In response, a new, more accessible color palette was
+developed using Canva and Venngage, as shown in Table 3.</p>
+<p>Additionally, users felt the background appeared too plain and boring. To address this, a simple yet
+engaging wallpaper was created and integrated into the pages, making the design more vibrant and
+attractive. Many respondents also suggested rounding the button corners for a more polished look.
+This feedback was critical, as WordEureka! is a user-centric app, and ensuring it meets user
+expectations is essential. Figure D1(Appendix) summarises the feedback, while Table D1 (Appendix)
+illustrates the UI changes implemented based on this input.</p>
+  </div>
+
+  <div id="iteration1" class="subsection">
+    <h3>4.3 Final Iteration</h3>
+    <p>The main features of WordEureka are as follows - solo gameplay, multiplayer gameplay,
+word-of-the-day (WOTD), previous game statistics, customisable settings, and game rules.
+The users of wordeureka can choose between playing a game on their own (solo gameplay), or they
+can play the game with their friend. (multiplayer game play). When they start the game, the
+application retrieves a word and starts the one minute countdown to let the player play the game. In
+game mode, the user can interact with the application by entering their words with a keyboard, and
+pausing the game which will allow them to restart, resume or quit the game, and refer to the rules if
+they require it. When the game ends, they can also replay the game, share their game scores or go
+back to the homepage of the application.</p><p>
+Apart from playing the game, users can also learn something new everyday through the WOTD
+feature. It gives users the definition to a new word everyday, and sample sentences so users can learn
+how to use them. This allows them to exercise their brains and keeping it active by increasing their
+knowledge. There is also a page with the game rules that will allow the users to understand the game
+properly before playing, and will let them refer back to it whenever they need to. They also have
+customisable settings for dark mode, high contrast mode, sound effects, and notifications so users can
+find the most suitable interface and user experience for themselves. Additionally, users will also be
+able to track their progress over all the games they play as the game stores information about the
+games they play such as score, timestamp, and the word with the highest score.</p>
+  </div>
+
+</section>
+
+<!-- ================= CHAPTER 5 ================= -->
+
+<section id="chapter5" class="project-section">
+
+  <h1>CHAPTER 5: EVALUATION</h1>
+<p>This chapter of the report provides a comprehensive evaluation of WordEureka!. It discusses the
+testing and evaluation methodologies employed to ensure the app's quality and functionality, as well
+as the results of user studies conducted to assess its impact on users. Examining the evaluation results
+will help provide a critical assessment of WordEureka!’s successes, limitations, and areas for future
+improvement.
+</p><p>Testing is a crucial phase in the development lifecycle, ensuring that the application functions as
+intended and meets the desired quality standards. This section covers three main types of testing
+conducted on WordEureka!: unit testing, integration testing, and user testing.
+</p><p>Following testing, the evaluation phase provides a critical analysis of the application based on user
+feedback and quantitative metrics. This section discusses the results obtained using the Perceived
+Stress Scale (PSS) and a customised User Feedback Scale. These offer valuable perspectives on user
+satisfaction, engagement, and areas for improvement, and on whether WordEureka! Has met the aims
+it set out to.</p>
+  <div id="evaluation-testing" class="subsection">
+    <h3>5.1 Testing</h3>
+
+    <p>
+      Placeholder text.
+    </p>
+  </div>
+
+</section>
+
+<!-- ================= CHAPTER 6 ================= -->
+
+<section id="chapter6" class="project-section">
+
+  <h1>CHAPTER 6: CONCLUSION</h1>
+
+  <div id="conclusion-summary" class="subsection">
+    <h3>6.1 Summary</h3>
+    <p>
+WordEureka! was ideated to tackle the issue of excessive social media usage among Singaporean
+youths by aiming to be an accessible and useful alternative to such platforms. Every design and
+functional aspect of the application was aimed to address the prevalent issue of mental fatigue induced
+by prolonged, unproductive screen time, ie brain rot. The iterative development process involved
+testing and user feedback to ensure the application was both functional and user-friendly. The success
+of wordeureka was evaluated through well known metrics such as the System Usability Scale (SUS)
+and Perceived Stress Scale (PSS),        </p>
+  </div>
+
+  <div id="conclusion-summary" class="subsection">
+    <h3>6.2 Outcome (evaluation & testing)</h3>
+    <p>
+The evaluation and testing phase showed that WordEureka! successfully met its objectives. A variety
+of tests were conducted through manual testing to ensure the stability and functionality of the app
+across multiple devices, with all test cases passing after iterative testing. WordEureka also scored a
+high 88.1 on the SUS scale, reflecting a high level of usability and user satisfaction. Additionally the
+PSS scores decreasing from 22.13 (pre-game) to 11.09 (post-game) also confirm that the app is
+technically sound and effectively serves its purpose in enhancing users’ mental well-being.        </p>
+  </div>
+
+  <div id="conclusion-summary" class="subsection">
+    <h3>6.3 Impact on Target Audience</h3>
+    <p>
+The user feedback collected shows that WordEreka was a hit amongst the potential users as 75% of
+users mentioned they would choose WordEureka! over social media as a mental health-enhancing
+alternative, while 62.5% agreed that the app could potentially replace excessive social media usage.
+Additionally, 87.5% of participants believed that the game had a positive impact on their mental
+health, highlighting the app’s potential to help users combat stress and ‘brain rot.’ These figures
+underscore WordEureka!’s success in delivering its core mission of providing a stimulating,
+stress-relieving experience for its target demographic of Singaporean youths.        </p>
+  </div>
+
+  <div id="conclusion-summary" class="subsection">
+    <h3>6.4 Challenges & Limitations</h3>
+    <p>
+Despite its success among users, the app initially faced certain limitations when played on older
+devices as they needed additional adjustments. Additionally, the scope of user testing was quite
+limited as the tests were conducted using a small number of participants. Expanding this testing to a
+broader and more diverse audience could provide more comprehensive feedback. Additionally, while
+WordEureka! effectively reduced stress for most users, it may not address all aspects of mental
+well-being, and future iterations should explore ways to further enhance its cognitive engagement
+features.        </p>
+  </div>
+
+  <div id="conclusion-summary" class="subsection">
+    <h3>6.5 Further Work</h3>
+    <p>
+If the application were to grow in popularity, it would require more nuanced storage abilities.
+Therefore, a cloud storage option such as Firebase is highly recommended. Furthermore, in order to
+reach out to a bigger audience group, the application could possibly be made available in different
+languages so even non-English speakers can enjoy WordEureka!.</p><p>
+From a technical perspective, implementing more rigorous automated testing frameworks would
+further enhance its stability and compatibility across an even wider range of devices. Future work
+should also focus on conducting long-term studies to measure the sustained effects of WordEureka! on
+mental health and its role in reducing social media usage. Expanding the user base and gathering
+insights from a more diverse demographic would provide valuable data to refine the app further.        </p>
+  </div>
+</section>
+
+<!-- ================= CHAPTER 7 ================= -->
+
+<section id="chapter7" class="project-section">
+
+  <h1>CHAPTER 7: APPENDICES</h1>
+
+  <div id="appendix-a" class="subsection">
+    <h3>Appendix A</h3>
+
+    <p>
+      Placeholder text.
+    </p>
+  </div>
+
+</section>
+
+<!-- ================= CHAPTER 8 ================= -->
+
+<section id="chapter8" class="project-section">
+
+  <h1>CHAPTER 8: REFERENCES</h1>
+
+  <p>
+1. Adobe. 2022. User flow diagram — what it is, why it’s important, and how to create one.
+(November 2022). Retrieved June 16, 2024 from
+https://business.adobe.com/blog/basics/how-to-make-a-user-flow-diagram
+2. Anon. 2011. Spelltower Review. (December 2011). Retrieved May 28, 2024 from
+https://web.archive.org/web/20120104155447/http://www.next-gen.biz/reviews/spelltower-re
+view
+3. Anon. Gamer reviews for Wordscapes. Retrieved May 25, 2024 from
+https://www.appgamer.com/wordscapes/reviews/
+4. Anon. Looking for games like Wordle? these fun word puzzles are just as addictive. Retrieved
+May 30, 2024 from
+https://www.gazetteleader.com/sponsored-content/looking-for-games-like-wordle-these-fun-w
+ord-puzzles-are-just-as-addictive-8426553
+5. Anon. Paced Auditory Serial Addition Test (PASAT). Retrieved June 5, 2024 from
+https://www.nationalmssociety.org/for-professionals/for-researchers/researcher-resources/rese
+arch-tools/clinical-study-measures/pasat#:~:text=Description,as%20well%20as%20calculatio
+n%20ability.
+6. Anon.Retrieved June 15, 2024 from
+https://www.das.nh.gov/wellness/Docs%5CPercieved%20Stress%20Scale.pdf
+7. Anon.Retrieved June 12, 2024 from https://random-word-api.herokuapp.com/home
+8. Anon.Retrieved June 12, 2024 from https://dictionaryapi.dev/
+9. Brooke Kato. 2024. Wordle driving you mad? why the New York Times Game is a problem
+for mental health, therapists say. (April 2024). Retrieved May 22, 2024 from
+https://nypost.com/2024/04/18/lifestyle/wordle-driving-you-mad-how-the-popular-game-hurts
+-mental-health/
+10. Canva.Retrieved June 14, 2024 from https://www.canva.com/colors/color-wheel/
+11. Coursera Staff. 2023. What is a wireframe? + how to create one. (November 2023). Retrieved
+June 14, 2024 from https://www.coursera.org/articles/wireframe
+12. Goh Yan Han. 2024. Research to look at surge in youth mental health issues; causes could
+include social media use. (February 2024). Retrieved June 7, 2024 from
+https://www.straitstimes.com/singapore/politics/research-to-look-at-surge-in-youth-mental-he
+alth-issues-causes-could-include-social-media-use
+13. Hamed Aliyari, Hedayat Sahraei, Sahar Golabi, Masoomeh Kazemi, Mohammad Reza Daliri,
+and Behrouz Minaei-Bidgoli. 2021. The effect of brain teaser games on the attention of
+players based on hormonal and brain signals changes. (September 2021). Retrieved May 22,
+2024 from https://doi.org/10.32598/bcn.2021.724.9
+14. Jasper van der Hoek. 2024. The 5 stages of the Agile Software Development Lifecycle. (April
+2024). Retrieved June 3, 2024 from
+https://www.mendix.com/blog/agile-software-development-lifecycle-stages/
+15. Jaymar Cabebe. 2014. Spelltower Review: SpellTower. (March 2014). Retrieved June 3, 2024
+from https://www.cnet.com/reviews/spelltower-review/
+16. Justin Davis. 2012. Six underrated iphone word games. (March 2012). Retrieved June 5, 2024
+from https://www.ign.com/articles/2012/03/29/six-underrated-iphone-word-games
+17. Moonee. Games publisher | color theory - tips for Game development | blog Moonee.
+Retrieved June 6, 2024 from
+https://www.moonee.io/blog/coler-theory-tips-for-game-development
+44
+18. Nathan Thomas. 2019. How to use the system usability scale (SUS) to evaluate the usability
+of your website. (September 2019). Retrieved June 11, 2024 from
+https://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usabilityof-
+your-website/
+19. Newport Institute Staff. Brain rot: The impact on Young Adult Mental Health. Retrieved May
+21, 2024 from https://www.newportinstitute.com/resources/co-occurring-disorders/brain-rot/
+20. OpiumPulses. 2021. Wordscapes Review (mobile): Opium pulses. (June 2021). Retrieved
+May 21, 2024 from
+https://www.opiumpulses.com/article/458/wordscapes-review#google_vignette
+21. Sue Howe. 2024. Social Media Statistics in Singapore [Updated 2024] Meltwater (May
+2024). Retrieved June 13, 2024 from
+https://www.meltwater.com/en/blog/social-media-statistics-singapore.
+22. Tech Desk. 2021. Wordle: All about the viral game twitter is going bonkers over. (December
+2021). Retrieved May 29, 2024 from
+https://indianexpress.com/article/technology/social/wordle-all-about-the-viral-game-twitter-isgoing-
+bonkers-over-7682968/
+23. Toni Vujevic. 2023. The Mobile App Architecture Guide. (March 2023). Retrieved June 6,
+2024 from https://decode.agency/article/mobile-app-architecture/
+24. Venngage. Accessible color palette generator: WCAG compliant. Retrieved June 6, 2024 from
+https://venngage.com/tools/accessible-color-palette-generator
+25. Aadil Mallick. 2023. How to use expo snacks in react native: LFT #2. (January 2023).
+Retrieved September 9, 2024 from
+https://medium.com/@waadlingaadil/how-to-use-expo-snacks-in-react-native-lft-2-653853c9f
+503
+26. React Native. 2024a.🚧asyncstorage · REACT native. (August 2024). Retrieved September
+9, 2024 from https://reactnative.dev/docs/asyncstorage
+27. Anon. 2024b. How to write test cases (with format & example). (May 2024). Retrieved
+September 9, 2024 from https://www.browserstack.com/guide/how-to-write-test-cases
+28. Anon. Collegiate dictionary API: Merriam-Webster Dictionary API. Retrieved September 9,
+2024a from https://dictionaryapi.com/products/api-collegiate-dictionary
+29. Anon. English Letter Frequency (based on a sample of 40,000 words). Retrieved September
+9, 2024b from
+https://pi.math.cornell.edu/~mec/2003-2004/cryptography/subs/frequencies.html
+30. Anon. Find any sound you like. Retrieved September 9, 2024c from https://freesound.org/
+31. Anon. Let’s build from here. Retrieved September 9, 2024d from https://github.com/
+32. React Native. React native · learn once, write anywhere. Retrieved September 9, 2024e from
+https://reactnative.dev/
+33. Wordnik. “sign up for a wordnik API key!” Retrieved September 9, 2024f from
+https://developer.wordnik.com/
+34. American Psychology Association. Social media brings benefits and risks to teens.
+psychology can help identify a path forward. Retrieved September 9, 2024g from
+https://www.apa.org/monitor/2023/09/protecting-teens-on-social-media
+35. Stack Navigator. Stack navigator: React navigation. Retrieved September 9, 2024h from
+https://reactnavigation.org/docs/stack-navigator/
+36. Pixabay. Retrieved September 9, 2024i from https://pixabay.com/      </p>
+
+</section>
